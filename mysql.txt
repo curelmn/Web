@@ -1,0 +1,114 @@
+DROP TABLE IF EXISTS student;
+CREATE TABLE student (
+   id INT NOT NULL,
+   sn INT,
+   name VARCHAR(20),
+   qq_mail VARCHAR(20)
+);
+DROP TABLE IF EXISTS student;
+CREATE TABLE student (
+   id INT NOT NULL,
+   sn INT UNIQUE,
+   name VARCHAR(20),
+   qq_mail VARCHAR(20)
+);
+DROP TABLE IF EXISTS student;
+CREATE TABLE student (
+   id INT NOT NULL,
+   sn INT UNIQUE,
+   name VARCHAR(20) DEFAULT 'unkown',
+   qq_mail VARCHAR(20)
+);
+DROP TABLE IF EXISTS student;
+CREATE TABLE student (
+   id INT NOT NULL PRIMARY KEY,
+   sn INT UNIQUE,
+   name VARCHAR(20) DEFAULT 'unkown',
+   qq_mail VARCHAR(20)
+);
+DROP TABLE IF EXISTS student;
+CREATE TABLE student (
+   id INT PRIMARY KEY auto_increment,
+   sn INT UNIQUE,
+   name VARCHAR(20) DEFAULT 'unkown',
+   qq_mail VARCHAR(20),
+ classes_id int,
+ FOREIGN KEY (classes_id) REFERENCES classes(id)
+);
+
+
+
+
+create table student(id int primary key auto_increment,
+name varchar(20)，
+classId int,
+foreign key(classId) references class(id)
+);
+
+create table user(
+id int primary key,
+name varchar(20),
+address varchar(100),
+phone varchar(20)
+);
+
+insert into user values(1,'a','add1','123');
+insert into user values(2,'a','add1','123');
+insert into user values(3,'a','add1','123');
+insert into user values(4,'a','add1','123');
+
+
+create table user2(
+id int primary key,
+name varchar(20)
+);
+insert into user2 select id,name from user; 
+
+select max(chinese) from student;
+select min(chinese) from student;
+
+create table emp(
+ id int primary key auto_increment,
+ name varchar(20) not null,
+ role varchar(20) not null,
+ salary numeric(11,2)
+);
+insert into emp(name, role, salary) values
+('马云','服务员', 1000.20),
+('马化腾','游戏陪玩', 2000.99),
+('孙悟空','游戏角色', 999.11),
+('猪无能','游戏角色', 333.5),
+('沙和尚','游戏角色', 700.33),
+('隔壁老王','董事长', 12000.66);
+
+select role,max(salary),min(salary),avg(salary) from emp group by role;
+
+
+
+create table library(
+book_name  varchar(30),
+author  varchar(20),
+price  int,
+book_classification  varchar(20)
+);
+
+create table teacher(
+name varchar(20) comment '姓名',
+age int comment '年龄',
+stature int comment '身高',
+weight int comment'体重',
+sex varchar(5) comment'性别',
+education varchar(20) comment'学历',
+birth varchar(20) comment '生日',
+idcard  varchar(20) comment '身份证号'
+);
+
+
+create table goods(
+goods_name varchar(30) comment  '商品名称',
+goods_price  int comment  '商品价格',
+goods_repertory int comment '商品库存',
+goods_infor varchar(50) comment '商品描述' 
+);
+
+insert into library values('Java核心技术','Tom',23,'计算机类');
