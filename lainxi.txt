@@ -1,0 +1,97 @@
+update library set price=61 where book_name='Java核心技术';
+insert into library values('Java核心技术','Cay S. Horstman',56.43,'计算机技术');
+insert into goods values('可乐',59,230,'饮品');
+insert into goods values('橙汁',70,130,'饮品');
+insert into goods values('雪碧',8,220,'饮品');
+insert into goods values('绿茶',44,30,'饮品');
+
+delete from goods where goods_price<60 or goods_repertory<200;
+
+
+insert into goods values('可乐',59,230,'饮品');
+insert into goods values('橙汁',70,130,'饮品');
+insert into goods values('柠檬',8,220,'水果');
+insert into goods values('绿茶',44,30,'饮品');
+insert into goods values('红茶',44,20,'饮品');
+insert into goods values('水蜜桃',44,10,'水果');
+insert into goods values('苹果',44,50,'水果');
+
+
+update goods set goods_price=goods_price+30 where goods_repertory>30;
+insert into goods values('学生书包',18.91,101,null);
+
+
+create table user(
+ID int,
+accout varchar(20),
+amount int;
+);
+
+insert into user values(1,'12345',500);
+insert into user values(101,'12345',1300);
+insert into user values(1,'12345',500);
+insert into user values(101,'12345',1300);
+insert into user values(103,'12345',500);
+insert into user values(201,'12345',1200);
+insert into user values(234,'12345',600);
+insert into user values(355,null,2500);
+insert into user values(400,'12345',6500);
+insert into user values(430,'12345',500);
+insert into user values(500,'12345',3500);
+ 
+
+select id,account,amount from user where (id between 1 and 200 or id between 300 and 500) and  account is not null  and amount >1000; 
+
+
+create table library(
+book_name  varchar(30),
+author  varchar(20),
+price  double,
+book_classification  varchar(20),
+publish_date year
+);
+
+
+
+insert into library values('Java核心技术','Cay S. Horstman',56.43,'计算机技术','1999');
+insert into library values('Java',null,40.43,'计算机技术','2020');
+insert into library values('西游记','吴承恩',60.43,'文学','2021');
+insert into library values('红楼梦','曹雪芹',44.43,'文学','2022');
+insert into library values('三国演义','罗贯中',33,'文学','2018');
+
+
+
+select book_name,author,price,book_classification,publish_date from library where author is not null or(price>50 and year(publish_date)>2019);
+
+
+create table article(
+title varchar(20),
+create_date datetime
+);
+
+
+insert into article values('abc','2019-01-02');
+insert into article values('bbb','2018-01-01');
+insert into article values('ccc','2020-01-02');
+insert into article values('ddd','2016-02-02');
+insert into article values(null,'2014-01-03');
+insert into article values('eee','2019-03-03  12:12:00');
+
+select title ,create_date from article where title is null or create_date>'2019-01-01 00:00:00';
+
+select title,create_date from  article where create_date between '2019-01-01 10:30:00' and '2019-11-10 16:02:00';
+
+create  table student(
+name varchar(20),
+age int
+);
+
+
+insert into student values('张三',20);
+insert into student values('李四',20);
+insert into student values('张aa',17);
+insert into student values('王五',20);
+insert into student values('张xx',23);
+
+
+select name ,age from student where name like '张%' and (age between 18 and 25);
