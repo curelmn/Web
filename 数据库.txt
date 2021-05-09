@@ -1,0 +1,36 @@
+
+//记录窗户、窗帘的开关状态、使用时间  id 为1 表示窗户、id为2表示窗帘
+create table  window_data( id int primary key,statues varchar(20)  default 'OFF', usetime datetime );
+//记录安防数据、环境温度、烟雾浓度、使用时间
+create  table safe_data(room_id  int,temper double,smokedate double,usetime datetime)
+
+
+
+
+
+//记录灯的开关状态、使用时间  id表示不同位置的灯 例如1是卧室灯....  
+create table  light_data( light_id int primary key auto_increment,location varchar(20),statues varchar(8)  default 'OFF', usetime datetime);
+//记录传感器传回的值、位置
+create table sensor(id int primary key auto_increment,name varchar(20),senor_Date  double,location varchar(20))
+
+//记录电器的使用状态，使用模式，使用时间
+create table elec_machine(id  int primary key auto_increment,statues varchar(20) default 'OFF',model varchar(20),  temper double,usetime datetime);
+
+
+
+//记录门的开关状态、使用时间
+create table door(statues varchar(20) default 'OFF',usetime datetime);
+
+create table User(id int primary key auto_increment,
+    username varchar(20) not null unique comment '账号',
+    password varchar(20) not null,
+    nickname varchar(20)
+    );
+
+
+
+
+
+
+create table  data();
+
