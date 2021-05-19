@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/bedroom_dpxs"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:src="@drawable/dp_dark"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/btn_open_topbedroom"
+            style="@android:style/Widget.Material.Light.Button.Toggle"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/shape"
+            android:text="开顶灯" />
+
+        <Button
+            android:id="@+id/btn_close_topbedroom"
+            android:layout_width="165dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/shape"
+            android:text="关顶灯" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+        <Button
+            android:id="@+id/btn_open_bedroom"
+            style="@android:style/Widget.Material.Light.Button.Toggle"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/shape"
+            android:text="开床头灯" />
+
+        <Button
+            android:id="@+id/time_select_openbedroom"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/shape"
+            android:text="床头灯定时开启"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+        <Button
+            android:id="@+id/btn_close_bedroom"
+            android:layout_width="165dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/shape"
+            android:text="床头灯关床头灯" />
+
+
+
+        <Button
+            android:id="@+id/time_select_closebedroom"
+            android:layout_width="165dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/shape"
+            android:text="定时关闭" />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/txt_time_openbedroom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txt_time_closebedroom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

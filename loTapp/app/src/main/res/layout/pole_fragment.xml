@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/pole_dpxs"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:src="@drawable/dp_dark"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+    <Button
+        android:id="@+id/btn_sun_pole"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/shape"
+        android:text="暴晒"/>
+
+    <Button
+        android:id="@+id/btn_dry_pole"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/shape"
+        android:text="阴干" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+    <Button
+        android:id="@+id/btn_up_pole"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/shape"
+        android:text="上升" />
+    <Button
+        android:id="@+id/btn_down_pole"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/shape"
+        android:text="下降" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+

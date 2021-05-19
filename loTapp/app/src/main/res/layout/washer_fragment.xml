@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/washer_dpxs"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:src="@drawable/dp_dark"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+    <Button
+        android:id="@+id/btn_open_washer"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:text="打开洗衣机"/>
+
+    <Button
+        android:id="@+id/btn_close_washer"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shape"
+        android:text="关闭洗衣机" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/time_select_washer"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shape"
+        android:text="定时开启"/>
+
+    <TextView
+        android:id="@+id/txt_time_washer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

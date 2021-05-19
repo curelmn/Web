@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:state_pressed="false"><!--没点击按钮的时候-->
+
+    <shape xmlns:android="http://schemas.android.com/apk/res/android">
+      <solid android:color="#4100FFEA"/>
+      <corners android:topLeftRadius="10dip"
+          android:topRightRadius="10dip"
+          android:bottomLeftRadius="10dip"
+          android:bottomRightRadius="10dip"/>
+    </shape>
+  </item>
+
+  <!--当点击按钮的时候变为蓝色-->
+  <item android:drawable="@color/mygreen" android:state_pressed="true" />
+</selector>

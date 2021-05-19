@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/kitchen_dpxs"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+
+        android:src="@drawable/dp_dark"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+    <Button
+        android:id="@+id/btn_open_kitchen"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/shape"
+        android:text="开灯"/>
+
+    <Button
+        android:id="@+id/btn_close_kitchen"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shape"
+        android:text="关灯" />
+
+    </LinearLayout>
+
+    <!--    <Button-->
+    <!--        android:id="@+id/time_select"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="定时"/>-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/txtTime"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content" />-->
+
+</LinearLayout>
