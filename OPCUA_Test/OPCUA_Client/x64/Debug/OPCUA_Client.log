@@ -1,0 +1,209 @@
+﻿  open62541.cpp
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(11597): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(11597): note: 默认构造函数或 copy/move 赋值运算符将忽略此成员
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24464): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24464): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24477): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24477): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24481): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24481): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24502): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24502): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24505): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24505): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24506): error C2664: “UA_StatusCode addNode_raw(UA_Server *,UA_NodeClass,UA_UInt32,char *,void *,const UA_DataType *)”: 无法将参数 4 从“const char [11]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24507): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24510): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24510): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24513): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24513): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24514): error C2664: “UA_StatusCode addNode_raw(UA_Server *,UA_NodeClass,UA_UInt32,char *,void *,const UA_DataType *)”: 无法将参数 4 从“const char [11]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24515): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24518): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24518): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24521): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24521): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24522): error C2664: “UA_StatusCode addNode_raw(UA_Server *,UA_NodeClass,UA_UInt32,char *,void *,const UA_DataType *)”: 无法将参数 4 从“const char [11]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24523): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24525): error C2664: “UA_StatusCode addReferenceTypeNode(UA_Server *,char *,char *,UA_UInt32,UA_Boolean,UA_Boolean,UA_UInt32)”: 无法将参数 2 从“const char [23]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24526): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24528): error C2664: “UA_StatusCode addReferenceTypeNode(UA_Server *,char *,char *,UA_UInt32,UA_Boolean,UA_Boolean,UA_UInt32)”: 无法将参数 2 从“const char [26]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24529): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24531): error C2664: “UA_StatusCode addReferenceTypeNode(UA_Server *,char *,char *,UA_UInt32,UA_Boolean,UA_Boolean,UA_UInt32)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24532): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24534): error C2664: “UA_StatusCode addReferenceTypeNode(UA_Server *,char *,char *,UA_UInt32,UA_Boolean,UA_Boolean,UA_UInt32)”: 无法将参数 2 从“const char [10]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24535): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24537): error C2664: “UA_StatusCode addReferenceTypeNode(UA_Server *,char *,char *,UA_UInt32,UA_Boolean,UA_Boolean,UA_UInt32)”: 无法将参数 2 从“const char [15]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24538): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24540): error C2664: “UA_StatusCode addReferenceTypeNode(UA_Server *,char *,char *,UA_UInt32,UA_Boolean,UA_Boolean,UA_UInt32)”: 无法将参数 2 从“const char [17]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24541): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24543): error C2664: “UA_StatusCode addReferenceTypeNode(UA_Server *,char *,char *,UA_UInt32,UA_Boolean,UA_Boolean,UA_UInt32)”: 无法将参数 2 从“const char [12]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24544): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24546): error C2664: “UA_StatusCode addReferenceTypeNode(UA_Server *,char *,char *,UA_UInt32,UA_Boolean,UA_Boolean,UA_UInt32)”: 无法将参数 2 从“const char [15]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24547): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24549): error C2664: “UA_StatusCode addReferenceTypeNode(UA_Server *,char *,char *,UA_UInt32,UA_Boolean,UA_Boolean,UA_UInt32)”: 无法将参数 2 从“const char [18]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24550): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24552): error C2664: “UA_StatusCode addReferenceTypeNode(UA_Server *,char *,char *,UA_UInt32,UA_Boolean,UA_Boolean,UA_UInt32)”: 无法将参数 2 从“const char [15]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24553): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24561): error C2664: “UA_StatusCode addReferenceTypeNode(UA_Server *,char *,char *,UA_UInt32,UA_Boolean,UA_Boolean,UA_UInt32)”: 无法将参数 2 从“const char [12]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24562): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24564): error C2664: “UA_StatusCode addReferenceTypeNode(UA_Server *,char *,char *,UA_UInt32,UA_Boolean,UA_Boolean,UA_UInt32)”: 无法将参数 2 从“const char [13]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24565): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24567): error C2664: “UA_StatusCode addReferenceTypeNode(UA_Server *,char *,char *,UA_UInt32,UA_Boolean,UA_Boolean,UA_UInt32)”: 无法将参数 2 从“const char [12]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24568): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24570): error C2664: “UA_StatusCode addReferenceTypeNode(UA_Server *,char *,char *,UA_UInt32,UA_Boolean,UA_Boolean,UA_UInt32)”: 无法将参数 2 从“const char [20]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24571): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24573): error C2664: “UA_StatusCode addReferenceTypeNode(UA_Server *,char *,char *,UA_UInt32,UA_Boolean,UA_Boolean,UA_UInt32)”: 无法将参数 2 从“const char [13]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24574): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24582): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24582): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24584): error C2664: “UA_StatusCode addNode_raw(UA_Server *,UA_NodeClass,UA_UInt32,char *,void *,const UA_DataType *)”: 无法将参数 4 从“const char [13]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24585): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24592): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24592): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24596): error C2664: “UA_StatusCode addNode_raw(UA_Server *,UA_NodeClass,UA_UInt32,char *,void *,const UA_DataType *)”: 无法将参数 4 从“const char [17]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24597): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24600): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24600): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24605): error C2664: “UA_QualifiedName UA_QUALIFIEDNAME(UA_UInt16,char *)”: 无法将参数 2 从“const char [21]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24605): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24603): error C2660: “UA_Server_addVariableTypeNode”: 函数不接受 8 个参数
+  d:\c 学习\opcua_test\opcua_client\open62541.h(27935): note: 参见“UA_Server_addVariableTypeNode”的声明
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24609): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24609): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24614): error C2664: “UA_QualifiedName UA_QUALIFIEDNAME(UA_UInt16,char *)”: 无法将参数 2 从“const char [13]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24614): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24612): error C2660: “UA_Server_addVariableTypeNode”: 函数不接受 8 个参数
+  d:\c 学习\opcua_test\opcua_client\open62541.h(27935): note: 参见“UA_Server_addVariableTypeNode”的声明
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24622): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24622): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24623): error C2664: “UA_StatusCode addNode_raw(UA_Server *,UA_NodeClass,UA_UInt32,char *,void *,const UA_DataType *)”: 无法将参数 4 从“const char [15]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24624): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24627): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24627): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24630): error C2664: “UA_QualifiedName UA_QUALIFIEDNAME(UA_UInt16,char *)”: 无法将参数 2 从“const char [11]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24630): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24628): error C2660: “UA_Server_addObjectTypeNode”: 函数不接受 7 个参数
+  d:\c 学习\opcua_test\opcua_client\open62541.h(27967): note: 参见“UA_Server_addObjectTypeNode”的声明
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24637): error C2664: “UA_StatusCode addObjectNode(UA_Server *,char *,UA_UInt32,UA_UInt32,UA_UInt32,UA_UInt32)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24637): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24639): error C2664: “UA_StatusCode addObjectNode(UA_Server *,char *,UA_UInt32,UA_UInt32,UA_UInt32,UA_UInt32)”: 无法将参数 2 从“const char [8]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24640): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24642): error C2664: “UA_StatusCode addObjectNode(UA_Server *,char *,UA_UInt32,UA_UInt32,UA_UInt32,UA_UInt32)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24643): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24645): error C2664: “UA_StatusCode addObjectNode(UA_Server *,char *,UA_UInt32,UA_UInt32,UA_UInt32,UA_UInt32)”: 无法将参数 2 从“const char [15]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24646): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24650): error C2664: “UA_StatusCode addObjectNode(UA_Server *,char *,UA_UInt32,UA_UInt32,UA_UInt32,UA_UInt32)”: 无法将参数 2 从“const char [10]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24651): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24655): error C2664: “UA_StatusCode addObjectNode(UA_Server *,char *,UA_UInt32,UA_UInt32,UA_UInt32,UA_UInt32)”: 无法将参数 2 从“const char [14]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24656): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24660): error C2664: “UA_StatusCode addObjectNode(UA_Server *,char *,UA_UInt32,UA_UInt32,UA_UInt32,UA_UInt32)”: 无法将参数 2 从“const char [12]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24661): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24665): error C2664: “UA_StatusCode addObjectNode(UA_Server *,char *,UA_UInt32,UA_UInt32,UA_UInt32,UA_UInt32)”: 无法将参数 2 从“const char [11]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24666): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24668): error C2664: “UA_StatusCode addObjectNode(UA_Server *,char *,UA_UInt32,UA_UInt32,UA_UInt32,UA_UInt32)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24669): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24673): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24673): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(24674): error C2664: “UA_StatusCode addNode_raw(UA_Server *,UA_NodeClass,UA_UInt32,char *,void *,const UA_DataType *)”: 无法将参数 4 从“const char [14]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(24675): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(25345): error C2664: “UA_String UA_STRING(char *)”: 无法将参数 1 从“const char [3]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(25345): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(25358): error C2664: “UA_String UA_STRING(char *)”: 无法将参数 1 从“const char [63]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(25358): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(25360): error C2664: “UA_String UA_STRING(char *)”: 无法将参数 1 从“const char [58]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(25360): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(25363): error C2664: “UA_String UA_STRING(char *)”: 无法将参数 1 从“const char [51]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(25363): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(36658): error C2664: “UA_String UA_STRING(char *)”: 无法将参数 1 从“const char [15]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(36658): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(36658): error C2660: “getArgumentsVariableNode”: 函数不接受 2 个参数
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(36589): note: 参见“getArgumentsVariableNode”的声明
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(36853): error C2664: “UA_String UA_STRING(char *)”: 无法将参数 1 从“const char [16]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(36853): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(36853): error C2660: “getArgumentsVariableNode”: 函数不接受 2 个参数
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(36589): note: 参见“getArgumentsVariableNode”的声明
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(43162): error C2664: “UA_QualifiedName UA_QUALIFIEDNAME(UA_UInt16,char *)”: 无法将参数 2 从“const char [26]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(43162): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(44533): error C2664: “UA_QualifiedName UA_QUALIFIEDNAME(UA_UInt16,char *)”: 无法将参数 2 从“const char [15]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(44533): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(44534): error C2664: “UA_QualifiedName UA_QUALIFIEDNAME(UA_UInt16,char *)”: 无法将参数 2 从“const char [16]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(44534): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(44548): error C2440: “初始化”: 无法从“const char [15]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(44548): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(44549): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(44549): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(44569): error C2440: “初始化”: 无法从“const char [16]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(44569): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(44570): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(44570): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(46693): error C2664: “UA_String UA_STRING(char *)”: 无法将参数 1 从“const char [66]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(46694): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(47021): error C2664: “UA_String UA_STRING(char *)”: 无法将参数 1 从“const char [48]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(47021): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(47020): error C2660: “getSecurityPolicy”: 函数不接受 1 个参数
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(46121): note: 参见“getSecurityPolicy”的声明
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(48016): error C2664: “UA_QualifiedName UA_QUALIFIEDNAME(UA_UInt16,char *)”: 无法将参数 2 从“const char [15]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(48016): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(48457): error C2362: “goto dv”跳过了“finish”的初始化操作
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(48426): note: 参见“dv”的声明
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(48457): note: 参见“finish”的声明
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(49464): error C2362: “goto sub”跳过了“cleanup”的初始化操作
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(49453): note: 参见“sub”的声明
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(49464): note: 参见“cleanup”的声明
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(51933): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(51933): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(51934): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(51934): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(51939): error C2664: “UA_QualifiedName UA_QUALIFIEDNAME(UA_UInt16,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(51939): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(51935): error C2660: “UA_Server_addNode_begin”: 函数不接受 10 个参数
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(43705): note: 参见“UA_Server_addNode_begin”的声明
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(51956): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(51956): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(51957): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(51957): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(51962): error C2664: “UA_QualifiedName UA_QUALIFIEDNAME(UA_UInt16,char *)”: 无法将参数 2 从“const char [27]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(51962): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(51958): error C2660: “UA_Server_addNode_begin”: 函数不接受 10 个参数
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(43705): note: 参见“UA_Server_addNode_begin”的声明
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(51979): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(51979): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(51980): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(51980): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(51985): error C2664: “UA_QualifiedName UA_QUALIFIEDNAME(UA_UInt16,char *)”: 无法将参数 2 从“const char [10]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(51985): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(51981): error C2660: “UA_Server_addNode_begin”: 函数不接受 10 个参数
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(43705): note: 参见“UA_Server_addNode_begin”的声明
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(52002): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(52002): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(52003): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(52003): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(52008): error C2664: “UA_QualifiedName UA_QUALIFIEDNAME(UA_UInt16,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(52008): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(52004): error C2660: “UA_Server_addNode_begin”: 函数不接受 10 个参数
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(43705): note: 参见“UA_Server_addNode_begin”的声明
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(52025): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(52025): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(52026): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(52026): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(52031): error C2664: “UA_QualifiedName UA_QUALIFIEDNAME(UA_UInt16,char *)”: 无法将参数 2 从“const char [8]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(52031): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(52027): error C2660: “UA_Server_addNode_begin”: 函数不接受 10 个参数
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(43705): note: 参见“UA_Server_addNode_begin”的声明
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(52048): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(52048): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(52049): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(52049): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(52054): error C2664: “UA_QualifiedName UA_QUALIFIEDNAME(UA_UInt16,char *)”: 无法将参数 2 从“const char [10]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(52054): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(52050): error C2660: “UA_Server_addNode_begin”: 函数不接受 10 个参数
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(43705): note: 参见“UA_Server_addNode_begin”的声明
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(52071): error C2664: “UA_LocalizedText UA_LOCALIZEDTEXT(char *,char *)”: 无法将参数 1 从“const char [1]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(52071): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(52076): error C2664: “UA_QualifiedName UA_QUALIFIEDNAME(UA_UInt16,char *)”: 无法将参数 2 从“const char [15]”转换为“char *”
+  d:\c 学习\opcua_test\opcua_client\open62541.cpp(52076): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(52072): error C2660: “UA_Server_addNode_begin”: 函数不接受 10 个参数
+d:\c 学习\opcua_test\opcua_client\open62541.cpp(52078): fatal error C1003: 错误计数超过 100；正在停止编译
+  open62541_client.cpp
+  正在生成代码...
