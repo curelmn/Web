@@ -1,0 +1,4 @@
+.\tmp\5c36f1ae-c349-4840-8206-c3ee0c4cec9eSolution.java:1: 错误: 类Solution是公共的, 应在名为 Solution.java 的文件中声明
+public class Solution {
+       ^
+1 个错误

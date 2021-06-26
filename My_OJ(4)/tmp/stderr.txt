@@ -1,0 +1,2 @@
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:5)
